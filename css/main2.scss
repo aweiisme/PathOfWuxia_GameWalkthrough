@@ -1,0 +1,22 @@
+$base-size: 25px;
+
+body {
+    background: rgb(195, 139, 87);
+
+    p {
+        width     : 200px;
+        height    : 200px;
+        background: #666666;
+        color     : #000;
+        font-size : $base-size * 2;
+    }
+
+    .bb {
+        display: none;
+    }
+
+    .warning {
+        @extend .bb;
+        color: yellow;
+    }
+}
