@@ -19,4 +19,21 @@ $(document).ready(function () {
     })
 
 
+
+    $('.character-figure').click(function (e) {
+
+        e.preventDefault();
+
+        var url = $(this).prop('href');
+        var image = $('<img>');
+
+        image.prop('src', url);
+
+        $('.img-modal').html(image);
+        $('.img-container').fadeIn();
+    })
+    $('.img-container').click(function (e) {
+        $(this).fadeOut();
+    });
+
 });
