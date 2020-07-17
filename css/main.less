@@ -12,6 +12,8 @@
 @color_9   : #418aff;
 @color_9-2 : #3966af;
 @color_10  : #FDA301;
+@color_11  : rgb(197, 152, 110);
+;
 
 
 body {
@@ -50,26 +52,31 @@ body {
     }
 
     .bgtop::after {
-        content         : "";
-        width           : 100%;
-        height          : 100px;
-        background-color: @color_0;
-        position        : absolute;
-        top             : 0;
-        transform       : skewY(-3deg) translate(0, -150%);
+        content            : "";
+        width              : 100%;
+        height             : 100px;
+        background-color   : @color_0;
+        position           : absolute;
+        top                : 0;
+        transform          : skewY(-3deg) translate(0, -150%);
         // box-shadow      : 0px -20px 20px @color_0;
     }
 
     .bgbottom::before {
-        content         : "";
-        width           : 100%;
-        height          : 100px;
-        background-color: @color_0;
-        position        : absolute;
-        bottom          : 0;
-        transform       : skewY(-3deg) translate(0, 50%);
+        content            : "";
+        width              : 100%;
+        height             : 100px;
+        background-color   : @color_0;
+        position           : absolute;
+        bottom             : 0;
+        transform          : skewY(-3deg) translate(0, 50%);
         // box-shadow      : 0px -20px 20px @color_0;
 
+    }
+
+    .title {
+        font-size  : 28px;
+        font-weight: 700;
     }
 
 
@@ -93,29 +100,20 @@ body {
         }
     }
 
-    .homepage {
-        .title {
-            font-size  : 28px;
-            font-weight: 700;
-        }
-    }
-
-
     .wrapper {
         position: relative;
 
     }
 
 
-
-
-
-
     #footer {
         background    : #555555;
-        font-family   : 'Lobster', cursive;
         letter-spacing: 3px;
 
+        .system {
+            background : @color_11;
+            font-size  : 18px;
+        }
 
         .bottom {
             position      : relative;
@@ -123,10 +121,12 @@ body {
             width         : 100%;
             background    : @color_7;
             border-top    : 1px solid #2c2c2c;
-            padding-bottom: 50px;
+
 
             .copyright {
-                margin: 10px 0;
+                margin     : 10px 0;
+                font-family: 'Lobster', cursive;
+
 
                 p {
                     margin     : 0;
@@ -152,26 +152,34 @@ body {
                     margin     : 0;
 
                     a {
-                        margin-top     : 10px;
-                        margin-left    : 10px;
-                        display        : inline-block;
-                        border         : 1px solid @color_3;
-                        border-radius  : 50%;
-                        width          : 40px;
-                        height         : 40px;
-                        color          : @color_3;
-                        text-decoration: none;
-                        font-size      : 17px;
-                        text-align     : center;
-                        font-weight    : 400;
-                        line-height    : 40px;
+                        margin-top        : 10px;
+                        margin-left       : 10px;
+                        display           : inline-block;
+                        // border         : 1px solid @color_3;
+                        // border-radius  : 50%;
+                        width             : 40px;
+                        height            : 40px;
+                        color             : @color_3;
+                        text-decoration   : none;
+                        font-size         : 24px;
+                        text-align        : center;
+                        font-weight       : 400;
+                        line-height       : 40px;
 
                         &:hover {
-                            color     : @color_1;
-                            border    : 1px solid @color_1;
-                            background: @color_2;
+                            color        : @color_1;
+                            // border    : 1px solid @color_1;
+                            // background: @color_2;
                         }
                     }
+                }
+            }
+
+            .bottom_logo {
+                text-align: center;
+                margin-top: 0;
+                img {
+                    width: 300px;
                 }
             }
         }
@@ -189,7 +197,7 @@ body {
                 color    : rgba(187, 36, 36, 0.5);
 
                 &:hover {
-                    color: rgba(187, 36, 36, .9);
+                    color: rgba(187, 66, 36, 0.9);
                 }
             }
 
