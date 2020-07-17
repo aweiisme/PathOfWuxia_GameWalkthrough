@@ -105,22 +105,44 @@ body {
 
     }
 
+    // Event
+    .event {
+        .nav-tabs .nav-link {
+            border                 : 1px solid transparent;
+            background-color       : @color_8;
+            border-top-left-radius : 0.8rem;
+            border-top-right-radius: 0.8rem;
+        }
+
+        .nav-tabs .nav-link.active {
+            color           : #fbfbfb;
+            background-color: @color_2;
+            border          : none;
+        }
+
+        .nav-tabs .nav-item.show .nav-link,
+        .nav-tabs .nav-link {
+            color: @color_4;
+        }
+    }
+
+
 
     #footer {
         background    : #555555;
         letter-spacing: 3px;
 
         .system {
-            background : @color_11;
-            font-size  : 18px;
+            background: @color_11;
+            font-size : 18px;
         }
 
         .bottom {
-            position      : relative;
-            bottom        : 0px;
-            width         : 100%;
-            background    : @color_7;
-            border-top    : 1px solid #2c2c2c;
+            position  : relative;
+            bottom    : 0px;
+            width     : 100%;
+            background: @color_7;
+            border-top: 1px solid #2c2c2c;
 
 
             .copyright {
@@ -178,6 +200,7 @@ body {
             .bottom_logo {
                 text-align: center;
                 margin-top: 0;
+
                 img {
                     width: 300px;
                 }
