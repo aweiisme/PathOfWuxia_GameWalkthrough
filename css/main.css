@@ -8,11 +8,13 @@ body section {
 body .img-container {
   display: none;
   position: fixed;
-  top: 0;
+  top: 0px;
   left: 0;
+  padding: 0 5%;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
+  z-index: 400;
 }
 body .img-container .img-modal {
   width: 100%;
@@ -75,45 +77,55 @@ body .event .nav-tabs .nav-item.show .nav-link,
 body .event .nav-tabs .nav-link {
   color: #222222;
 }
-body #footer {
+body .event .accordion {
+  margin-bottom: 50px;
+  box-shadow: 5px 5px 10px #333;
+}
+body .event .card {
+  background-color: #eaf2ff;
+}
+body .event button {
+  color: #3966af;
+}
+#footer {
   background: #555555;
   letter-spacing: 3px;
 }
-body #footer .system {
+#footer .system {
   background: #c5986e;
   font-size: 18px;
 }
-body #footer .bottom {
+#footer .bottom {
   position: relative;
   bottom: 0px;
   width: 100%;
   background: #1B1B1B;
   border-top: 1px solid #2c2c2c;
 }
-body #footer .bottom .copyright {
+#footer .bottom .copyright {
   margin: 10px 0;
   font-family: 'Lobster', cursive;
 }
-body #footer .bottom .copyright p {
+#footer .bottom .copyright p {
   margin: 0;
   line-height: 60px;
   color: #b1b1b1;
 }
-body #footer .bottom .copyright p a {
+#footer .bottom .copyright p a {
   color: #3966af;
   text-decoration: none;
 }
-body #footer .bottom .copyright p a:hover {
+#footer .bottom .copyright p a:hover {
   color: #d6b161;
 }
-body #footer .bottom .social-media {
+#footer .bottom .social-media {
   margin: 0;
 }
-body #footer .bottom .social-media ul {
+#footer .bottom .social-media ul {
   padding-top: 10px;
   margin: 0;
 }
-body #footer .bottom .social-media ul a {
+#footer .bottom .social-media ul a {
   margin-top: 10px;
   margin-left: 10px;
   display: inline-block;
@@ -126,26 +138,26 @@ body #footer .bottom .social-media ul a {
   font-weight: 400;
   line-height: 40px;
 }
-body #footer .bottom .social-media ul a:hover {
+#footer .bottom .social-media ul a:hover {
   color: #d6b161;
 }
-body #footer .bottom .bottom_logo {
+#footer .bottom .bottom_logo {
   text-align: center;
   margin-top: 0;
 }
-body #footer .bottom .bottom_logo img {
+#footer .bottom .bottom_logo img {
   width: 300px;
 }
-body #footer #go-top {
+#footer #go-top {
   z-index: 1000;
   position: fixed;
   bottom: 15px;
   right: 15px;
 }
-body #footer #go-top a {
+#footer #go-top a {
   font-size: 36px;
   color: rgba(187, 36, 36, 0.5);
 }
-body #footer #go-top a:hover {
+#footer #go-top a:hover {
   color: rgba(187, 66, 36, 0.9);
 }

@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>俠影閣</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- 加入"bootstrap.css"-->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- 加入"自己的的css"-->
+
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!-- 加入 "google的字體"-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script><!-- Jquery, bootstrap的壞掉了 找官網的 -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script><!-- popper.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script><!-- bootstrap.js -->
+    <!-- 加入 "jquery", "popper.js"以及"bootrasp.js" -->
+
+    <script src="js/main.js"></script>
+    <!-- 加入 "自己的js" -->
+
+    <script src="https://kit.fontawesome.com/e92000f9e2.js" crossorigin="anonymous"></script>
+    <!-- 加入 我的"font-awesome"連結 -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="image/logo.png">
+    <!-- 加入 網頁LOGO圖示 -->
+</head>
+
+
+
+<body>
+
+    <div id="header">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+            <a class="navbar-brand" href="#"><img src="image/Path Of Wuxia(橙色字體).png" width="250px" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">遊戲介紹</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            事件
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="event.html">事件總表</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="event2.html">主線劇情</a>
+                            <a class="dropdown-item" href="event3.html">隊友事件</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">傳書攻略</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">養成攻略</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">計算測試</a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+    </div>
+
+
+
+
+
+    <section class="event">
+        <section class="Main_story">
+            <div class="container">
+                <div class="border"></div>
+
+
+
+                <div class="accordion" id="accordionExample">
+
+                    <!-- 開始回憶事件 -->
+                    <div class="card">
+                        <div class="card-header" id="heading1">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                                    data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                    <b>開始 #1</b>
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapse1" class="collapse show" aria-labelledby="heading1"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div class="list-group" id="list-tab" role="tablist">
+                                            <a class="list-group-item list-group-item-action btn-info active"
+                                                id="list-1-1-list" data-toggle="list" href="#list-1-1" role="tab"
+                                                aria-controls="home">遊戲教學前選項：</a>
+
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="tab-content" id="nav-tabContent">
+                                            <div class="tab-pane fade show active" id="list-1-1" role="tabpanel"
+                                                aria-labelledby="list-1-1-list">
+                                                <ul class="list-unstyled">
+                                                    <li>以仁為本，赦生止殺，才是行俠！　→　<b>對俠道有新體悟</b>，操縱白衣劍客 [楚天碧]</li>
+                                                    <li>除盡天下惡人，世道方能太平！　　→　<b>對俠道有新體悟</b>，操縱黑衣人　 [段霄烈]</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- 機關廠房事件 -->
+                    <div class="card">
+                        <div class="card-header" id="heading2">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapse2" aria-expanded="false"
+                                    aria-controls="collapse2">
+                                    <b>機關廠房 #2</b>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
+                            <div class="card-body">
+
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div class="list-group" id="list-tab" role="tablist">
+                                            <a class="list-group-item list-group-item-action btn-info active"
+                                                id="list-2-1-list" data-toggle="list" href="#list-2_1" role="tab"
+                                                aria-controls="home">清醒後選項：</a>
+                                            <a class="list-group-item list-group-item-action btn-info"
+                                                id="list-2-2-list" data-toggle="list" href="#list-2_2" role="tab"
+                                                aria-controls="profile">調查選項：</a>
+                                            <a class="list-group-item list-group-item-action btn-info"
+                                                id="list-2-3-list" data-toggle="list" href="#list-2_3" role="tab"
+                                                aria-controls="profile">觸發戰鬥：</a>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="tab-content" id="nav-tabContent">
+                                            <div class="tab-pane fade show active" id="list-2_1" role="tabpanel"
+                                                aria-labelledby="list-2-1-list">
+                                                <ul class="list-unstyled">
+                                                    <br>
+                                                    <li>這是哪裡？ ／ 我們被困住了？ ／ 你們沒事吧？</li>
+                                                    <li>→　哼，女妖怪報上名來！<b> [膽識+3]</b> ／ 我絕不會讓你傷害他們！<b> [堅毅+3]</b></li>
+                                                    <li>→　讓我先四處看看。 ／ 我們找條路出去！</li>
+                                                </ul>
+                                            </div>
+                                            <div class="tab-pane fade" id="list-2_2" role="tabpanel"
+                                                aria-labelledby="list-2-2-list">
+                                                <ul class="list-unstyled">
+                                                    <br>
+                                                    <li>調查工作檯：獲得<b> 石漆</b> → 用於開啟左方的牢房鐵門 ／ 可接著進行調查文字與水桶</li>
+                                                    <li>調查牢房內文字與水桶：得<b> 藍色玉石</b> ／ 開啟後續事件-<b>夜探俠影閣</b></li>
+                                                    <li>調查床鋪：獲得<b> 金錢41</b> </li>
+                                                </ul>
+                                            </div>
+                                            <div class="tab-pane fade" id="list-2_3" role="tabpanel"
+                                                aria-labelledby="list-2-3-list">
+                                                <ul class="list-unstyled">
+                                                    <li>戰鬥中：</li>
+                                                    <li>[王阿財抵達逃脫點後，阿寶自動跟上 ／ 王阿寶被打後2人自動跑至逃脫點]</li>
+                                                    <li>我不會輕易倒下的 <b> [意志力+3]</b> ／ 我要擋下他們<b> [意志力+3]</b></li>
+                                                    <br>
+                                                    <li>戰鬥結束後：(獲得金錢：96)</li>
+                                                    <li>在下無門無派 ／ 我沒學過武功</li>
+                                                    <li>我想拜入俠隱閣，修習武藝 ／ 我會留在重岩村，守護鄉里！<b>[獲得：俠隱令]</b></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- 渡口、抵達俠隱閣 -->
+                    <div class="card">
+                        <div class="card-header" id="heading3">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapse3" aria-expanded="false"
+                                    aria-controls="collapse3">
+                                    <b>渡口 #3</b>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
+                            <div class="card-body">
+
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div class="list-group" id="list-tab" role="tablist">
+                                            <a class="list-group-item list-group-item-action btn-info active"
+                                                id="list-3-1-list" data-toggle="list" href="#list-3_1" role="tab"
+                                                aria-controls="home">前往渡口：</a>
+                                            <a class="list-group-item list-group-item-action btn-info"
+                                                id="list-3-2-list" data-toggle="list" href="#list-3_2" role="tab"
+                                                aria-controls="profile">抵達渡口：</a>
+                                            <a class="list-group-item list-group-item-action btn-info"
+                                                id="list-3-3-list" data-toggle="list" href="#list-3_3" role="tab"
+                                                aria-controls="profile">渡口右方主線：</a>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="tab-content" id="nav-tabContent">
+                                            <div class="tab-pane fade show active" id="list-3_1" role="tabpanel"
+                                                aria-labelledby="list-3-1-list">
+                                                <ul class="list-unstyled">
+                                                    <li>此處直接回頭→　選項：「算了，還是回家吧。」<br>
+                                                        →　獲得：<b>「與世無爭」</b> 結局
+                                                        →　(* 開局可選新特質：「捲土重來」 <b>[+5%傷害]</b>)</li>
+                                                    <br>
+                                                    <li>調查：右方轉彎處草叢→　獲得 <b>54錢</b></li>
+                                                    <li>事件：曾阿吉→　給他「小木劍」可獲得 <b>生肌膏</b></li>
+                                                </ul>
+                                            </div>
+                                            <div class="tab-pane fade" id="list-3_2" role="tabpanel"
+                                                aria-labelledby="list-3-2-list">
+                                                <ul class="list-unstyled">
+                                                    <li>三俠村小販 (蔡狗子)</li>
+                                                    <li>→　無功不受祿 <b>[修養+3]</b> ／ 鹹肉餅 <b>[體魄+1]</b> ／ 鹹菜包 <b>[力量+1]</b>
+                                                    </li>
+                                                    <br>
+
+
+                                                    <li>乞丐</li>
+                                                    <li>給他50錢：獲得鐘若昕好感度 ／ 給他藍色玉石：獲得<b>藍色玉石、小木劍</b> ／ 破舊的香包
+                                                        <br>(給予藍色玉石：你看起來需要幫忙。 ／ 我知道你在說謊。)
+                                                        <br>幫助他(50錢或玉石皆可)→　觸發後續事件-迎新宴：鐘若昕好感度</li>
+                                                    <br>
+
+
+                                                    <li>書生 (田章勳)</li>
+                                                    <li>今日是拜入俠隱閣的日子。 ／ 我也不知道。</li>
+                                                    <li>◆　狀況一： (尚未拿取花鳥同鎮紙)</li>
+                                                    <li>　　等我一下 ／ →　在地圖正中間尋寶(如下圖位置)，給予花鳥銅鎮紙<br>
+                                                        <a href="image/3-2.png" class="character-figure">
+                                                            <img src="image/3-2.png" class="ml-5" width="70%" alt="3-2">
+                                                        </a>
+                                                        <div class="img-container">
+                                                            <div class="img-modal"></div>
+                                                        </div>
+                                                    <li>◆　狀況二： (已拿取花鳥同鎮紙)</li>
+                                                    <li>　　是這枚花鳥同鎮紙嗎？ ／ →　埋回去地圖正中間(同上圖位置)，再回去與書生對話</li>
+                                                    <li>→　狀況一、二 皆可獲的書法「鵬程萬里」字聯：</li>
+                                                    <li>　　獲得「豪放的狂草」 <b>[靈巧+1]</b> ／ 獲得「穩健的楷書」 <b>[意志+1]</b></li>
+
+                                                    <br>
+                                                    <li>調查：竹筏附近的草叢→　獲得<b>破舊的香包</b></li>
+                                                </ul>
+                                            </div>
+                                            <div class="tab-pane fade" id="list-3_3" role="tabpanel"
+                                                aria-labelledby="list-3-3-list">
+                                                <ul class="list-unstyled">
+                                                    <li>主線劇情：<br>
+                                                        南兄這叫不拘小節，何須道歉？ <b>[爽朗+3]</b> ／ 在下ＸＸＸ，請多指教。 <b>[修養+3]</b><br>
+                                                        →　別在意，我也是。 ／ 真是驚人的默契。<br>
+                                                        <br>
+                                                        抵達俠隱閣：<br>
+                                                        →　告辭了，多謝老丈。 <b>[修養+3]</b> ／ 你怎不一起來瞧瞧？ <b>[爽朗+3]</b><br>
+                                                        →　再多考驗，我都要挺過！ <b>[堅毅+3]</b> ／ 俠隱閣，我來了！ <b>[膽識+3]</b></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <!-- 迎新宴 -->
+                    <div class="card">
+                        <div class="card-header" id="heading4">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapse4" aria-expanded="false"
+                                    aria-controls="collapse4">
+                                    <b>迎新宴 #4</b>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
+                            <div class="card-body">
+
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div class="list-group" id="list-tab" role="tablist">
+                                            <a class="list-group-item list-group-item-action btn-info active"
+                                                id="list-4-1-list" data-toggle="list" href="#list-4_1" role="tab"
+                                                aria-controls="home">武轍選項：</a>
+                                            <a class="list-group-item list-group-item-action btn-info"
+                                                id="list-4-2-list" data-toggle="list" href="#list-4_2" role="tab"
+                                                aria-controls="profile">段紅兒選項：</a>
+                                            <a class="list-group-item list-group-item-action btn-info"
+                                                id="list-4-3-list" data-toggle="list" href="#list-4_3" role="tab"
+                                                aria-controls="profile">鐘若昕選項：</a>
+                                            <a class="list-group-item list-group-item-action btn-info"
+                                                id="list-4-4-list" data-toggle="list" href="#list-4_4" role="tab"
+                                                aria-controls="profile">程墉選項：</a>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="tab-content" id="nav-tabContent">
+                                            <div class="tab-pane fade show active" id="list-4_1" role="tabpanel"
+                                                aria-labelledby="list-4-1-list">
+                                                <ul class="list-unstyled">
+                                                    <br>
+                                                    <br>
+                                                    <li>很高興認識你。 <b> [爽朗+3]</b> ／ 那就先謝過師兄了。 <b>[修養+3]</b></li>
+                                                    <li>→　ＸＸＸ。 ／ 姓Ｘ名ＸＸ。</li>
+                                                    <li>→　我會一種叫五炁朝元的功夫。 ／ 沒什麼特別的。</li>
+                                                    <li>→　這...多謝師兄。 ／ 只覺得更尷尬了...。</li>
+                                                </ul>
+                                            </div>
+                                            <div class="tab-pane fade" id="list-4_2" role="tabpanel"
+                                                aria-labelledby="list-4-2-list">
+                                                <ul class="list-unstyled">
+                                                    <br>
+                                                    <br>
+                                                    <br>
+                                                    <li>段姑娘不常和人說話嗎？ ／ 程兄？</li>
+                                                    <li>→　段姑娘從小在俠隱閣生活？ ／ 上回多謝姑娘相助 <b>[好感度上升：微]</b></li>
+                                                </ul>
+                                            </div>
+                                            <div class="tab-pane fade" id="list-4_3" role="tabpanel"
+                                                aria-labelledby="list-4-3-list">
+                                                <ul class="list-unstyled">
+                                                    <br>
+                                                    <br>
+                                                    <br>
+                                                    <li>解了老乞丐事件 <b>[好感度上升：微]</b></li>
+                                                    <li>→　恭敬不如從命 <b>[膽識+3、好感度上升：微]</b> ／ 我不敢吃辣...</li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="tab-pane fade" id="list-4_4" role="tabpanel"
+                                                aria-labelledby="list-4-4-list">
+                                                <ul class="list-unstyled">
+                                                    <br>
+                                                    <br>
+                                                    <br>
+                                                    <li>竊天......塢穴......獾寨 ／ 你擅長哪一類武學？</li>
+                                                    <li>→　竊天塢是個怎樣的地方？ ／ 你背上的傘，是兵器嗎？</li>
+                                                    <li>→　你不怎麼愛說話，是麼？ ／ 你平常都跟誰說話呢？<b>[好感度上升：微]</b> </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </section>
+
+
+    </section>
+
+
+
+
+
+
+    <div id="footer">
+        <div id="go-top"><a id="gotop" href="#header"><i class="fas fa-caret-square-up"></i></a></div>
+
+
+
+
+        <div class="bottom">
+            <div class="container clearfix">
+                <div class="copyright float-left">
+                    <p>2020　-　Theme by A_Wei 【 <a href="#">Hsieh Cheng Wei</a> 】|　 Be Yourself, Be Happy</p>
+                </div>
+                <div class="social-media float-right">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-discord"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-steam-symbol"></i></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bottom_logo">
+                <img src="image/Path Of Wuxia(橙色字體).png" alt="LOGO">
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
