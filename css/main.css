@@ -87,6 +87,13 @@ body .event .card {
 body .event button {
   color: #3966af;
 }
+body .event .btn-link:hover {
+  color: #333;
+  text-decoration: none;
+}
+body .event .btn-link:active {
+  text-decoration: none;
+}
 #footer {
   background: #555555;
   letter-spacing: 3px;
