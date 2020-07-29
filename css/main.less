@@ -18,7 +18,7 @@
 
 
 body {
-    font-family: 'PT Sans', 'Lobster', sans-serif;
+    font-family: 'Sarpanch', 'Noto Sans TC', 'PT Sans', 'Lobster', sans-serif;
 
     background: @color_0;
     @base-size: 25px;
@@ -47,7 +47,6 @@ body {
             width: 100%;
         }
     }
-
 
     .border {
         margin-top   : 20px;
@@ -81,10 +80,6 @@ body {
         font-size  : 28px;
         font-weight: 700;
     }
-
-
-
-
 
 
 
@@ -130,6 +125,12 @@ body {
         }
 
         //event2
+        .sec {
+            letter-spacing: 4px;
+            // text-align: center;
+        }
+
+
         .accordion {
             margin-bottom: 50px;
             box-shadow   : 5px 5px 10px @color_2;
@@ -146,9 +147,10 @@ body {
 
         .btn-link {
             &:hover {
-                color: @color_2;
+                color          : @color_2;
                 text-decoration: none;
             }
+
             &:active {
                 text-decoration: none;
             }
@@ -183,7 +185,7 @@ body {
 
             p {
                 margin     : 0;
-                line-height: 60px;
+                line-height: 30px;
                 color      : rgb(177, 177, 177);
 
                 a {

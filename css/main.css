@@ -1,5 +1,5 @@
 body {
-  font-family: 'PT Sans', 'Lobster', sans-serif;
+  font-family: 'Sarpanch', 'Noto Sans TC', 'PT Sans', 'Lobster', sans-serif;
   background: #c38b57;
 }
 body section {
@@ -77,6 +77,9 @@ body .event .nav-tabs .nav-item.show .nav-link,
 body .event .nav-tabs .nav-link {
   color: #222222;
 }
+body .event .sec {
+  letter-spacing: 4px;
+}
 body .event .accordion {
   margin-bottom: 50px;
   box-shadow: 5px 5px 10px #333;
@@ -115,7 +118,7 @@ body .event .btn-link:active {
 }
 #footer .bottom .copyright p {
   margin: 0;
-  line-height: 60px;
+  line-height: 30px;
   color: #b1b1b1;
 }
 #footer .bottom .copyright p a {
