@@ -59,6 +59,25 @@ body #header .dropdown-menu {
 body #header .dropdown-menu :hover {
   background: #ffbd43;
 }
+body #header form.form-inline input.form-control {
+  width: 100px;
+  transition: 0.2s linear;
+}
+@media (min-width: 1100px) {
+  body #header form.form-inline input.form-control:hover {
+    width: 150px;
+  }
+}
+@media (max-width: 1099px) and (min-width: 1065px) {
+  body #header form.form-inline input.form-control:hover {
+    width: 120px;
+  }
+}
+@media (max-width: 1064px) {
+  body #header form.form-inline input.form-control:hover {
+    max-width: 100px;
+  }
+}
 body .wrapper {
   position: relative;
 }
